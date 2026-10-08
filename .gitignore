@@ -1,0 +1,40 @@
+# Simulation waveforms
+*.vcd
+*.fst
+*.lxt
+*.lxt2
+
+# Compiled simulation executables
+*.vvp
+*_sim
+*.exe
+
+# Simulation/build logs
+*.log
+*.tmp
+*.bak
+
+# FPGA generated files
+*.json
+*.config
+*.bit
+*.bin
+
+# Generated synthesis output
+*_synthesized.v
+
+# Editor / OS files
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Yosys temporary files
+*.dot
+
+# nextpnr temporary files
+*.lock
+
+# Python cache
+__pycache__/
+*.pyc

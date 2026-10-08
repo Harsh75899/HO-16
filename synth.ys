@@ -1,0 +1,25 @@
+read_verilog rtl/alu.v
+read_verilog rtl/register_file.v
+read_verilog rtl/instruction_decoder.v
+read_verilog rtl/control_unit.v
+read_verilog rtl/data_memory.v
+read_verilog rtl/cpu.v
+read_verilog rtl/program_counter.v
+read_verilog rtl/instruction_memory.v
+read_verilog rtl/fetch_unit.v
+read_verilog rtl/branch_unit.v
+read_verilog rtl/ho16_processor.v
+read_verilog rtl/ho16_synth_top.v
+
+hierarchy -top ho16_synth_top
+
+proc
+opt
+memory
+opt
+techmap
+opt
+flatten
+stat
+
+write_verilog sim/ho16_synthesized.v

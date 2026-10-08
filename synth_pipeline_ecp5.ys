@@ -1,0 +1,7 @@
+read_verilog rtl/alu.v rtl/register_file.v rtl/instruction_decoder.v rtl/control_unit.v rtl/cpu.v rtl/program_counter.v rtl/instruction_memory.v rtl/fetch_unit.v rtl/data_memory.v rtl/branch_unit.v rtl/ho16_processor.v rtl/ho16_synth_top.v rtl/ho16_timing_top.v rtl/if_id_register.v rtl/id_ex_register.v rtl/ex_mem_register.v rtl/hazard_unit.v rtl/ho16_pipeline.v rtl/forwarding_unit.v rtl/mem_wb_register.v
+
+hierarchy -top ho16_pipeline
+
+synth_ecp5 -json sim/ho16_pipeline_ecp5.json
+
+stat
