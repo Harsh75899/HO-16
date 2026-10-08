@@ -298,7 +298,6 @@ HO-16/
 ├── synth_pipeline_timing.ys
 └── README.md
 ```
-```markdown
 ## Build Targets
 
 The repository contains both the original single-cycle implementation
