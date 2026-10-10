@@ -218,7 +218,11 @@ The design was synthesized using Yosys for an ECP5 FPGA target.
 These values are from the final ECP5 synthesis/place-and-route flow.
 
 ---
+## Synthesized Netlist
 
+Generated using Yosys and visualized with Netlistsvg.
+
+[View the full pipeline netlist](docs/images/ho16_pipeline_netlist.svg)
 ## Timing Analysis
 
 The final design was placed and routed using `nextpnr-ecp5`.
