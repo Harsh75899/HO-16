@@ -1,3 +1,5 @@
+# Simulation and generated netlist artifacts
+/sim/
 # Simulation waveforms
 *.vcd
 *.fst
